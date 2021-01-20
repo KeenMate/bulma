@@ -1,9 +1,9 @@
 @import "../utilities/mixins"
 
-$hero-body-padding: 3rem 1.5rem !default
-$hero-body-padding-small: 1.5rem !default
-$hero-body-padding-medium: 9rem 1.5rem !default
-$hero-body-padding-large: 18rem 1.5rem !default
+$hero-body-padding: 3em 1.5em !default
+$hero-body-padding-small: 1.5em !default
+$hero-body-padding-medium: 9em 1.5em !default
+$hero-body-padding-large: 18em 1.5em !default
 
 $hero-colors: $colors !default
 
@@ -123,18 +123,18 @@ $hero-colors: $colors !default
     display: none
 
 .hero-buttons
-  margin-top: 1.5rem
+  margin-top: 1.5em
   // Responsiveness
   +mobile
     .button
       display: flex
       &:not(:last-child)
-        margin-bottom: 0.75rem
+        margin-bottom: 0.75em
   +tablet
     display: flex
     justify-content: center
     .button:not(:last-child)
-      +ltr-property("margin", 1.5rem)
+      +ltr-property("margin", 1.5em)
 
 // Containers
 

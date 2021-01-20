@@ -37,12 +37,12 @@
   display: none
   flex-grow: 0
   flex-shrink: 0
-  margin-left: 0.5rem
+  margin-left: 0.5em
   text-align: center
   a,
   span
     border-radius: $radius
-    width: 1.5rem
+    width: 1.5em
   a
     &:hover
       background-color: $background
@@ -68,15 +68,15 @@
     strong
       color: currentColor
   #meta
-    margin-top: -0.5rem
+    margin-top: -0.5em
 
 .bd-tabs
   margin-bottom: $main-spacing
 
 +mobile
   .bd-tabs
-    margin-left: -1.5rem
-    margin-right: -1.5rem
+    margin-left: -1.5em
+    margin-right: -1.5em
     .tabs
       ul
         flex-wrap: nowrap
@@ -122,7 +122,7 @@
   top: 0
 
 %bd-list
-  font-size: 0.875rem
+  font-size: 0.875em
   li
     &:not(:last-child)
       margin-bottom: 0.5em
@@ -142,7 +142,7 @@
     &:hover
       color: $link
   &:not(:last-child)
-    margin-bottom: 0.5rem
+    margin-bottom: 0.5em
   &.is-active
     .bd-category-toggle
       .icon
@@ -160,7 +160,7 @@
   display: flex
   justify-content: flex-end
   .icon
-    font-size: 0.75rem
+    font-size: 0.75em
     transform-origin: center
     transition-duration: $speed
     transition-property: transform
@@ -168,7 +168,7 @@
 .tag.bd-mini-tag
   border-radius: 2px !important
   font-family: Verdana, sans-serif
-  font-size: 0.5rem
+  font-size: 0.5em
   font-weight: bold
   height: 2.25em
   vertical-align: text-bottom
@@ -184,7 +184,7 @@
 .bd-category-list
   @extend %bd-list
   display: none
-  padding: 0.5rem
+  padding: 0.5em
 
 .bd-anchors-reference
   height: 1px
@@ -192,7 +192,7 @@
 .bd-anchors
   display: none
   max-width: $sidebar-width
-  padding-top: calc(1.5rem - 1px)
+  padding-top: calc(1.5em - 1px)
   +tablet
     &.is-active
       display: block
@@ -202,9 +202,9 @@
 
 .bd-anchors-title
   color: $border-hover
-  font-size: 0.875rem
+  font-size: 0.875em
   font-weight: $weight-semibold
-  margin-bottom: 0.5rem
+  margin-bottom: 0.5em
 
 .bd-anchors-list
   @extend %bd-list
@@ -217,9 +217,9 @@
 +touch
   .bd-lead,
   .bd-side
-    padding: 1.5rem
+    padding: 1.5em
   .bd-header-carbon
-    margin-top: 1.5rem
+    margin-top: 1.5em
 
 +touch
   .bd-side-background
@@ -236,16 +236,16 @@
   .bd-prev-next
     display: flex
   .bd-side
-    flex: 0 0 calc(#{$sidebar-width} + 1.5rem)
+    flex: 0 0 calc(#{$sidebar-width} + 1.5em)
 
 +desktop
   .bd-main
-    padding: 0 3rem
+    padding: 0 3em
   .bd-lead
-    margin-left: -3rem
-    padding: 3rem
+    margin-left: -3em
+    padding: 3em
     &:last-child
-      margin-right: -3rem
+      margin-right: -3em
   .bd-header
     align-items: center
     display: flex
@@ -259,7 +259,7 @@
     margin: -15px 0 -15px ($main-spacing * 2)
     width: $carbon-width
   .bd-side
-    padding: 3rem 0 3rem 1.5rem
+    padding: 3em 0 3em 1.5em
 
 +widescreen
   .bd-header-carbon

@@ -1,8 +1,8 @@
 .bd-footer-title
   color: $text-strong
-  font-size: 1.25rem
+  font-size: 1.25em
   line-height: 1.25
-  margin-bottom: 0.5rem
+  margin-bottom: 0.5em
   transition-duration: $speed
   transition-property: color
   strong
@@ -10,7 +10,7 @@
 
 .bd-footer-subtitle
   color: $border-hover
-  margin-top: -0.5rem
+  margin-top: -0.5em
   transition-duration: $speed
   transition-property: color
 
@@ -30,13 +30,13 @@
 
 .bd-footer-tsp
   color: $border-hover
-  margin-top: 1.5rem
+  margin-top: 1.5em
 
 %bd-footer-box
   @extend %bd-box
   text-align: center
   .bd-footer-title
-    font-size: 1.5rem
+    font-size: 1.5em
 
 // Support
 
@@ -44,9 +44,9 @@
   @extend %bd-footer-box
   border-top: 2px solid $scheme-main-ter
   box-shadow: none
-  padding: 3rem
+  padding: 3em
   .bd-footer-title
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5em
 
 .bd-footer-donations
   justify-content: center
@@ -59,7 +59,7 @@
   flex-wrap: wrap
   justify-content: center
   .bd-footer-sponsor
-    width: 12rem
+    width: 12em
 
 .bd-footer-sponsor a
   @extend %center
@@ -67,11 +67,11 @@
 
 +tablet
   .bd-footer-donation
-    padding: 0.75rem 1.5rem
+    padding: 0.75em 1.5em
 
 .bd-footer-donation-title
   color: $border-hover
-  margin-bottom: 0.5rem
+  margin-bottom: 0.5em
   strong
     color: currentColor
 
@@ -79,7 +79,7 @@
   @extend %center
   height: 70px
   .bd-github-button
-    margin-right: 0.5rem
+    margin-right: 0.5em
   .bd-github-button,
   .bd-patreon-button
     flex-shrink: 0
@@ -93,7 +93,7 @@
 $star-figure-height: 156px
 
 .bd-footer-stars
-  margin-top: 2.5rem
+  margin-top: 2.5em
   +tablet
     align-items: stretch
     display: flex
@@ -106,12 +106,12 @@ $star-figure-height: 156px
   will-change: box-shadow, transform
   +mobile
     &:not(:last-child)
-      margin-bottom: 1.5rem
+      margin-bottom: 1.5em
   +tablet
-    width: calc(33.3333% - 2rem)
+    width: calc(33.3333% - 2em)
   &:hover
-    box-shadow: 0 3rem 3rem -1.25rem rgba($scheme-invert, 0.1)
-    transform: translateY(-0.5rem)
+    box-shadow: 0 3em 3em -1.25em rgba($scheme-invert, 0.1)
+    transform: translateY(-0.5em)
     .bd-footer-title,
     .bd-footer-subtitle
       color: $link
@@ -136,18 +136,18 @@ $star-figure-height: 156px
     background-size: 440px 180px
 
 .bd-footer-star-header
-  padding: 1.5rem
+  padding: 1.5em
 
 .bd-footer-star-figure
   @extend %center
   height: $star-figure-height
-  margin-top: -1rem
+  margin-top: -1em
 
 // Links
 
 .bd-footer-links
-  margin-top: 6rem
-  padding-bottom: 6rem
+  margin-top: 6em
+  padding-bottom: 6em
   a
     color: currentColor
     &:hover
@@ -155,15 +155,15 @@ $star-figure-height: 156px
 
 .bd-footer-link-title
   color: $text-strong
-  font-size: 1.25rem
+  font-size: 1.25em
   font-weight: $weight-semibold
   &:not(:first-child)
     margin-top: 1.5em
 
 .bd-footer-link
-  margin-top: 0.5rem
+  margin-top: 0.5em
   &.bd-is-more
-    font-size: 0.875rem
+    font-size: 0.875em
     a:not(:hover)
       color: $border-hover
   &.bd-has-subtitle
@@ -177,19 +177,19 @@ $star-figure-height: 156px
         font-weight: unset
       em
         display: block
-        font-size: 0.875rem
+        font-size: 0.875em
         font-style: normal
       &:not(:hover)
         em
           color: $border-hover
       +mobile
         flex-wrap: wrap
-        margin-top: 1rem
+        margin-top: 1em
         em
           width: 100%
       +tablet
         em
-          margin-left: 1rem
+          margin-left: 1em
           text-align: right
 
 .bd-footer-link-icon

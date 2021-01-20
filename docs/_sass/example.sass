@@ -27,11 +27,11 @@
 
 .bd-example,
 .bd-structure
-  padding: 1.5rem
+  padding: 1.5em
   &:not(:first-child)
-    margin-top: 2rem
+    margin-top: 2em
   &:not(:last-child)
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5em
 
 .bd-example
   &.bd-is-clipped
@@ -40,14 +40,14 @@
     border: 1px solid $yellow
     border-radius: 0 0 $radius $radius
     border-top: none
-    margin-top: -1.5rem
+    margin-top: -1.5em
     &:not(:last-child)
-      margin-bottom: 1.5rem
+      margin-bottom: 1.5em
 
 // Snippet
 .bd-snippet
   +block
-  margin-top: 2rem
+  margin-top: 2em
   position: relative
   &::before
     content: "Snippet"
@@ -55,7 +55,7 @@
     display: flex
 
 .bd-snippet-preview
-  padding: 1.5rem
+  padding: 1.5em
 
 .bd-snippet-code.bd-is-more.bd-is-more-clipped
   .highlight
@@ -76,7 +76,7 @@
     &.bd-is-more.bd-is-more-clipped
       .highlight
         pre
-          padding-top: 0.325rem
+          padding-top: 0.325em
 
 .bd-snippet.bd-is-clipped
   .bd-snippet-code
@@ -115,17 +115,17 @@
         align-items: center
         display: flex
         justify-content: center
-        width: calc(128px + 3rem)
+        width: calc(128px + 3em)
       .bd-snippet-code
-        width: calc(100% - 128px - 3rem)
+        width: calc(100% - 128px - 3em)
     &.bd-is-two-fifths
       .bd-snippet-preview
         align-items: center
         display: flex
         justify-content: center
-        width: calc(256px + 3rem)
+        width: calc(256px + 3em)
       .bd-snippet-code
-        width: calc(100% - 256px - 3rem)
+        width: calc(100% - 256px - 3em)
     &.bd-is-one-third
       .bd-snippet-preview
         width: 33.3333%
@@ -144,7 +144,7 @@
 .highlight-full,
 #navbarJsExample
   &:not(:last-child)
-    margin-bottom: 1.5rem
+    margin-bottom: 1.5em
   .highlight pre
     max-height: none
 
@@ -154,7 +154,7 @@ $structure-invert: $danger-invert
 .bd-structure
   border-color: $structure
   border-radius: $radius
-  padding: 1.5rem
+  padding: 1.5em
   &::before
     background: $structure
     color: $structure-invert
@@ -181,11 +181,11 @@ $structure-invert: $danger-invert
     padding: 3px 5px
     z-index: 2
   &.bd-is-structure-container
-    padding: 1.5rem 0.75rem 0.75rem
+    padding: 1.5em 0.75em 0.75em
     &::after
       align-items: flex-start
       justify-content: flex-start
-      padding: 0.5rem 0.75rem
+      padding: 0.5em 0.75em
 
 .highlight
   position: relative
@@ -195,13 +195,13 @@ $structure-invert: $danger-invert
     border: none
     color: $text
     cursor: pointer
-    font-size: 0.625rem
+    font-size: 0.625em
     outline: none
     padding-bottom: 0
     padding-top: 0
     position: absolute
-    right: 0.25rem
-    top: 0.25rem
+    right: 0.25em
+    top: 0.25em
     &:hover
       background-color: $yellow
       color: $yellow-invert
@@ -233,11 +233,11 @@ $structure-invert: $danger-invert
 
 +tablet
   .section:not(.is-fullwidth) > .bd-example:not(.is-fullwidth)
-    margin-left: 1.5rem
-    margin-right: 1.5rem
+    margin-left: 1.5em
+    margin-right: 1.5em
     & + .highlight
-      margin-left: 1.5rem
-      margin-right: 1.5rem
+      margin-left: 1.5em
+      margin-right: 1.5em
 
 .section.is-fullwidth
   padding: 0 !important

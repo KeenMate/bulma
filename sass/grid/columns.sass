@@ -1,6 +1,6 @@
 @import "../utilities/mixins"
 
-$column-gap: 0.75rem !default
+$column-gap: 0.75em !default
 
 .column
   display: block
@@ -443,7 +443,7 @@ $column-gap: 0.75rem !default
   &:last-child
     margin-bottom: (-$column-gap)
   &:not(:last-child)
-    margin-bottom: calc(1.5rem - #{$column-gap})
+    margin-bottom: calc(1.5em - #{$column-gap})
   // Modifiers
   &.is-centered
     justify-content: center
@@ -455,7 +455,7 @@ $column-gap: 0.75rem !default
       margin: 0
       padding: 0 !important
     &:not(:last-child)
-      margin-bottom: 1.5rem
+      margin-bottom: 1.5em
     &:last-child
       margin-bottom: 0
   &.is-mobile
@@ -475,7 +475,7 @@ $column-gap: 0.75rem !default
 
 @if $variable-columns
   .columns.is-variable
-    --columnGap: 0.75rem
+    --columnGap: 0.75em
     +ltr-property("margin", calc(-1 * var(--columnGap)), false)
     +ltr-property("margin", calc(-1 * var(--columnGap)))
     > .column
@@ -483,31 +483,31 @@ $column-gap: 0.75rem !default
       padding-right: var(--columnGap)
     @for $i from 0 through 8
       &.is-#{$i}
-        --columnGap: #{$i * 0.25rem}
+        --columnGap: #{$i * 0.25em}
       +mobile
         &.is-#{$i}-mobile
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
       +tablet
         &.is-#{$i}-tablet
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
       +tablet-only
         &.is-#{$i}-tablet-only
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
       +touch
         &.is-#{$i}-touch
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
       +desktop
         &.is-#{$i}-desktop
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
       +desktop-only
         &.is-#{$i}-desktop-only
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
       +widescreen
         &.is-#{$i}-widescreen
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
       +widescreen-only
         &.is-#{$i}-widescreen-only
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
       +fullhd
         &.is-#{$i}-fullhd
-          --columnGap: #{$i * 0.25rem}
+          --columnGap: #{$i * 0.25em}
